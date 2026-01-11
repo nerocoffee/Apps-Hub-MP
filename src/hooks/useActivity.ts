@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase, Activity } from '../lib/supabase.ts'
+import { supabase, Activity } from '../lib/supabase'
 import { useAuth } from './useAuth'
 
 export function useActivity() {

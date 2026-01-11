@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ChevronRight, PenTool } from 'lucide-react'
-import { ToolConfig } from '../components/ToolConfig.tsx'
-import { ToolPreview } from '../components/ToolPreview.tsx'
+import { ToolConfig } from '../components/ToolConfig'
+import { ToolPreview } from '../components/ToolPreview'
 export function ToolPlayground() {
   const { toolId } = useParams()
   return (

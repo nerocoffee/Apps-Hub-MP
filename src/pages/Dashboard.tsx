@@ -4,11 +4,11 @@ import {
   PenTool,
   BarChart3,
 } from 'lucide-react'
-import { ToolCard } from '../components/ToolCard.tsx'
-import { Input } from '../components/ui/Input.tsx'
-import { useTools } from '../hooks/useTools.ts'
-import { useAuth } from '../hooks/useAuth.ts'
-import { getIconComponent } from '../lib/iconMapping.ts'
+import { ToolCard } from '../components/ToolCard'
+import { Input } from '../components/ui/Input'
+import { useTools } from '../hooks/useTools'
+import { useAuth } from '../hooks/useAuth'
+import { getIconComponent } from '../lib/iconMapping'
 
 export function Dashboard() {
   const { tools, loading: toolsLoading } = useTools()

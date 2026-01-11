@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Button } from './ui/Button.tsx'
-import { Input } from './ui/Input.tsx'
-import { Label } from './ui/Label.tsx'
+import { Button } from './ui/Button'
+import { Input } from './ui/Input'
+import { Label } from './ui/Label'
 import { ChevronDown, ChevronUp, Sparkles, Upload } from 'lucide-react'
 export function ToolConfig() {
   const [isAdvancedOpen, setIsAdvancedOpen] = useState(false)

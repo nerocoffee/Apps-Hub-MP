@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from './ui/Button.tsx'
+import { Button } from './ui/Button'
 import { Copy, Download, Share2, Save, RefreshCw } from 'lucide-react'
 export function ToolPreview() {
   return (

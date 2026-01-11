@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import { Sidebar } from '../components/Sidebar.tsx'
-import { ActivitySidebar } from '../components/ActivitySidebar.tsx'
+import { Sidebar } from '../components/Sidebar'
+import { ActivitySidebar } from '../components/ActivitySidebar'
 interface MainLayoutProps {
   children: React.ReactNode
 }

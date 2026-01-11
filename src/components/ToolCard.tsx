@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, BoxIcon } from 'lucide-react'
-import { Card } from './ui/Card.tsx'
-import { Badge } from './ui/Badge.tsx'
+import { Card } from './ui/Card'
+import { Badge } from './ui/Badge'
 interface ToolCardProps {
   id: string
   title: string
