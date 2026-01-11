@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase, Tool } from '../lib/supabase'
+import { supabase, Tool } from '../lib/supabase.ts'
 
 export function useTools() {
   const [tools, setTools] = useState<Tool[]>([])
