@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase, ContentItem } from '../lib/supabase'
+import { supabase, ContentItem } from '../lib/supabase.ts'
 import { useAuth } from './useAuth'
 
 export function useContentLibrary() {
