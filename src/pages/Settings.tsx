@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from '../components/ui/Card'
-import { Button } from '../components/ui/Button'
-import { Input } from '../components/ui/Input'
-import { Label } from '../components/ui/Label'
+import { Card } from '../components/ui/Card.tsx'
+import { Button } from '../components/ui/Button.tsx'
+import { Input } from '../components/ui/Input.tsx'
+import { Label } from '../components/ui/Label.tsx'
 export function Settings() {
   return (
     <div className="max-w-3xl mx-auto space-y-8">
